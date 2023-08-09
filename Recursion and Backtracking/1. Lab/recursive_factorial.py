@@ -21,4 +21,4 @@ print(calc_factorial(n))
 #     return factorial_num
 
 
-print(factorial(int(input())))
+# print(factorial(int(input())))
