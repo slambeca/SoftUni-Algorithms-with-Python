@@ -8,3 +8,17 @@ def calc_factorial(n):
 n = int(input())
 
 print(calc_factorial(n))
+
+
+# Variant 2 with no recursion
+
+def factorial(n):
+    factorial_num = 1
+
+    for i in range(n, 0, -1):
+        factorial_num *= i
+
+    return factorial_num
+
+
+print(factorial(int(input())))
