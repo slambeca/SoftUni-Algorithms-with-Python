@@ -12,13 +12,13 @@ print(calc_factorial(n))
 
 # Variant 2 with no recursion
 
-def factorial(n):
-    factorial_num = 1
+# def factorial(n):
+#     factorial_num = 1
 
-    for i in range(n, 0, -1):
-        factorial_num *= i
+#     for i in range(n, 0, -1):
+#         factorial_num *= i
 
-    return factorial_num
+#     return factorial_num
 
 
 print(factorial(int(input())))
